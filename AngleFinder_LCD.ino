@@ -6,15 +6,17 @@ LANGUAGE: C++
 Description: This code is written specifically for the LCD angle displays
 -----------------------------------------
 Author notes: 
-  Units: 16384 LSB = 1 g (from RM-MPU-6000A datasheet)
-  HEX Addresses: (from RM-MPU-6000A datasheet)
-    MPU = 0x69 (standard is 0x68 unless AD0 pin is pulled HIGH)
+  Units: 16384 LSB = 1 g 
+  HEX Addresses: 
+    MPU = 0x69 (standard is 0x68 unless AD0 pin is pulled HIGH [or your AD0 pin is broken :)])
     MPU PWR MGMT = 0x6B
     MPU XACCOUT = 0x3B
     MPU YACCOUT = 0x3D
     MPU RST = 0x00 (0x40 for 0x6B reg)
     LCD = 0x27
     LCD CMND = 0x00
+    LCD SETCURXY = 0x03
+    LCD CLR = 0x0C
   Credit: LCD03, used for PRINT function
 */
 
