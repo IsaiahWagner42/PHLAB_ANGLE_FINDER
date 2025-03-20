@@ -3,7 +3,7 @@ AUTHOR: Isaiah Wagner
 FILENAME: AngleFinder_LCD.ino
 LANGUAGE: C++
 -----------------------------------------
-Description: This code is written specifically for the LCD angle displays
+Description: This code is written for the Arduino NANO LCD angle displays
 -----------------------------------------
 Author notes: 
   Units: 16384 LSB = 1 g 
